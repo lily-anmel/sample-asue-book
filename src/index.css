@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;500;700;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Zen Maru Gothic", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Zen Maru Gothic", ui-serif, Georgia, serif;
+  --color-primary: #B89C72;
+  --color-primary-light: #D4C3A3;
+  --color-accent: #E6D5C3;
+  --color-bg-base: #FAF8F5;
+  --color-text-main: #4A4A4A;
+  --color-text-muted: #7A7A7A;
+}
+
+body {
+  background-color: var(--color-bg-base);
+  color: var(--color-text-main);
+  font-family: var(--font-sans);
+}
+
+.marker-yellow {
+  background: linear-gradient(transparent 60%, rgba(216, 198, 119, 0.5) 60%);
+}
+
